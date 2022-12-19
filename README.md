@@ -20,19 +20,26 @@ It depends and two libraries:
 
 The application is only tested on Linux and requires a libnotify daemon running on your linux.
 
-
 ## Roadmap
 
 * [ ] Decoding of unknown attributes in the protocol
 * [ ] Platform support for Windows and Linux (Systemd, Windows Services)
 * [ ] Testing of further devices
-* [ ] Better intgration in swaybar
+* [ ] Better integration in swaybar
+* [ ] [wlr-layer-shell](https://github.com/swaywm/wlr-protocols/blob/master/unstable/wlr-layer-shell-unstable-v1.xml) integration for some nice wayland popup. 
 
 ## Tested Devices
 
 * Airpods 1
 * Airpods Pro 1
 * Beats Studio 3
+
+## Contribution
+
+Any contribution to this project is welcome. I am more focused on reverse engineering the proximity protocol and less on the application logic. I have chosen Rust in order to make my first steps with this language and get used to the ecosystem. Therefore I am particularly interested in your monitoring results. Which colors and devices exist? Could you figure out further unknown field of the proximity protocol? 
+
+![Monitor Mode](./doc/screenshot-monitor.png)
+
 
 ## References
 
